@@ -1,0 +1,34 @@
+PODS:
+  - GYDModuleDemoInterface (0.0.1):
+    - GYDModuleDemoInterface/Base (= 0.0.1)
+    - GYDModuleDemoInterface/ModuleA (= 0.0.1)
+    - GYDModuleDemoInterface/ModuleB (= 0.0.1)
+  - GYDModuleDemoInterface/Base (0.0.1)
+  - GYDModuleDemoInterface/ModuleA (0.0.1)
+  - GYDModuleDemoInterface/ModuleB (0.0.1)
+  - GYDModuleDemoSubModuleA (0.0.1):
+    - GYDModuleDemoInterface
+
+DEPENDENCIES:
+  - "GYDModuleDemoInterface (from `git@github.com:pkgogai/GYDModuleDemoInterface.git`, branch `dev`)"
+  - GYDModuleDemoSubModuleA (from `../`)
+
+EXTERNAL SOURCES:
+  GYDModuleDemoInterface:
+    :branch: dev
+    :git: "git@github.com:pkgogai/GYDModuleDemoInterface.git"
+  GYDModuleDemoSubModuleA:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  GYDModuleDemoInterface:
+    :commit: 708684fa31dc55671cf3ec0dea63b2e33fb06b92
+    :git: "git@github.com:pkgogai/GYDModuleDemoInterface.git"
+
+SPEC CHECKSUMS:
+  GYDModuleDemoInterface: 10b9263445a452f42af0f871a0c3606bf108f951
+  GYDModuleDemoSubModuleA: 9c9355cf2424866880af5f3f6a23340d5f44ff0d
+
+PODFILE CHECKSUM: ff80033599f94587516a6ff3b19b3a15d8873d7c
+
+COCOAPODS: 1.6.0.beta.2

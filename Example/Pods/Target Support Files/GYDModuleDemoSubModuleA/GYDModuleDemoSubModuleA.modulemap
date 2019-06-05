@@ -1,0 +1,6 @@
+framework module GYDModuleDemoSubModuleA {
+  umbrella header "GYDModuleDemoSubModuleA-umbrella.h"
+
+  export *
+  module * { export * }
+}
